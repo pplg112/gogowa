@@ -1,0 +1,81 @@
+/* styles.css */
+
+/* ฟอนต์ทั้งหมดใช้ฟอนต์ที่อ่านง่าย */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* หัวข้อหลัก */
+h1 {
+    color: #00796b;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* หัวข้อย่อย */
+h2 {
+    color: #00695c;
+    margin-top: 30px;
+    font-size: 1.8em;
+}
+
+/* ย่อหน้าแรก (แหล่งที่มา) */
+p {
+    font-size: 1.1em;
+}
+
+/* ลิงก์ */
+a {
+    color: #0288d1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* รายการกิจกรรม */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+ul li {
+    background: #b2dfdb;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+/* รูปภาพ */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 20px 0;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.15);
+    padding: 10px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
